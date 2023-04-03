@@ -1,0 +1,247 @@
+/* Elements */
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Lora', serif;
+    color: #665d4b;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 5% auto;
+}
+
+h3{
+    color: #665d4b;
+    margin: 4% 0%;
+}
+
+p{
+    color: #b0b5c8;
+    padding-right:50px;  
+}
+
+/* Multiple styling */
+.sub-head{
+    background-color: #d9d8d5;
+    margin-top: 20px;
+}
+
+.section-heading{
+    background-color: #665d4b;
+    margin: 50px 0px 60px 0px;
+    padding: 5px 0px;
+}
+
+.section-heading h2{
+    color:#d9d8d5;
+    font-size: 3rem;
+}
+
+.info-container{
+    background-color: #ffffff;
+    text-align: left;
+    margin: 5% 7%;
+}
+
+.info-container img{
+    width: 200px;
+    height: 150px;
+    border:5px solid #665d4b;
+    border-radius: 5px;
+}
+
+/* Top container */
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+#head-container{
+    width:100%;
+    height:800px;
+    text-align: center;
+   background-color:#665d4b;
+}
+
+
+
+/* Navigation */
+
+.navbar{
+    margin-top:0%;
+    color: white;
+    padding-top: 0;
+}
+
+.nav-siivu{
+    background-color: #665d4b;
+}
+
+.nav-link{
+    color:#d9d8d5;
+    font-size: 1.25rem;
+    padding: 0px 15px;
+}
+
+.nav-link:hover{
+    color:#ffffff;
+    font-size:1.5rem;
+}
+
+/* accommadation */
+
+.rooms p{
+text-align: left;
+}
+
+/* relaxation */
+.activities p{
+    text-align: left;
+}
+
+/* nourishment */
+
+.carousel-item img{
+    width:350px;
+    height:250px;
+    border: 5px solid #665d4b;
+    border-radius: 5px;
+}
+
+#freshFood{
+text-align: center;
+margin: 5% 0
+}
+
+.food-head{
+    text-align: center !important;
+    padding: 0px !important;
+}
+
+.menu-items p{
+    text-align: left !important;
+}
+#drinkscara{
+    text-align: center;
+    margin: 5% 0
+}
+
+/* rejuvenate */
+
+
+.stay .section-heading{
+    margin-bottom: 0px;
+}
+
+.stay-left{
+    background-color: #d9d8d5;
+    margin:0;
+    padding:5%;
+    text-align: center;
+}
+
+.stay-left h3{
+    font-size: 4rem;
+ }
+
+.stay-left img{
+    width:40%;
+    height:40%;
+    border: 5px solid #665d4b;
+}
+
+#pp{
+    font-size: 1rem;
+}
+
+.btn{
+    background-color: #665d4b;
+    color:#ffffff;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color:#665d4b;
+    font-size:1.5rem;
+    border-color: #665d4b;
+}
+
+.stay-right{
+    margin:0;
+    padding:5%;
+}
+
+.stay-right h3,p{
+    text-align: right;
+    padding-right: 0px;
+}
+
+.stay-right iframe{
+    margin-left:50%;
+    border:5px solid #665d4b
+}
+
+
+/* Media queries */
+
+
+@media (max-width:1028px){
+#head-container{
+    height: 300px;
+    margin-bottom:0px;
+}
+    .title-image img{
+        width:100%;
+        height:100%;
+        padding-top: 20px;
+    }
+
+    .info-container{
+    text-align: center;
+    }
+
+    .section-heading{
+        margin-top:3px;
+        font-size:1.5rem;
+        padding:0px;
+        
+    }
+
+    .menu-items{
+        text-align:left !important;
+    }
+
+    .stay-left img {
+        width: 150px;
+        height: 150px;
+        float: none;
+        margin-left:0px;
+    }
+
+    .price{
+        display:block;
+    }
+
+    .stay-left{
+        padding: 1%;
+
+    }
+    .stay-right{
+    text-align:center;
+    }
+
+    .stay-right iframe{
+        margin-left:0px;
+    }
+
+}
+
+
+
+
+
+
+
